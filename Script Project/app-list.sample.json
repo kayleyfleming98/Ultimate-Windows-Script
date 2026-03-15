@@ -1,0 +1,5 @@
+[
+  { "Name": "Firefox", "Pattern": "*Firefox*", "Url": "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US", "SilentArgs": "-ms", "FileName": "Firefox-Setup.exe" },
+  { "Name": "Notepad++", "Pattern": "*Notepad++*", "GitHubRepo": "notepad-plus-plus/notepad-plus-plus", "AssetPattern": "*x64*Installer*.exe", "SilentArgs": "/S" },
+  { "Name": "KeePassXC", "Pattern": "*KeePass*XC*", "GitHubRepo": "keepassxreboot/keepassxc", "AssetPattern": "*win64*.msi", "SilentArgs": "/quiet" }
+]
